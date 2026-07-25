@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-07-25T17:32:42.236320+00:00",
+  "venue": "Bybit",
+  "symbol": "BTCUSDT",
+  "ticker": {
+    "lastPrice": 64232.7,
+    "markPrice": 64232.7,
+    "indexPrice": 64262.68,
+    "fundingRate": 1.143e-05,
+    "openInterest": 58335.311
+  },
+  "1H": {
+    "close": 64180.2,
+    "EMA5": 64137.045168658966,
+    "EMA10": 64101.96457102235,
+    "EMA20": 64141.72882391499,
+    "MACD": -103.32208822899702,
+    "MACD_signal": -164.39543636072347,
+    "MACD_hist": 61.07334813172645,
+    "ATR14": 129.70714285714243,
+    "volume": 912.518,
+    "RVOL20": 1.3376365535070451,
+    "high20": 64241.2,
+    "low20": 63750.1
+  },
+  "4H": {
+    "close": 64145.5,
+    "EMA5": 64144.31995670982,
+    "EMA10": 64386.85947262419,
+    "EMA20": 64737.929123788024,
+    "MACD": -346.08562361935765,
+    "MACD_signal": -193.74687004552445,
+    "MACD_hist": -152.3387535738332,
+    "ATR14": 497.9214285714292,
+    "volume": 2455.633,
+    "RVOL20": 0.3066308287856698,
+    "high20": 66364.7,
+    "low20": 63700.7
+  },
+  "OI_1H": {
+    "previous": 58616.165,
+    "latest": 58434.758,
+    "change_pct": -0.30948288752770114
+  },
+  "OI_4H": {
+    "previous": 58446.795,
+    "latest": 58616.165,
+    "change_pct": 0.2897849231938254
+  },
+  "LS_1H": {
+    "long": 0.6181,
+    "short": 0.3819,
+    "L_S": 1.6184865147944487
+  },
+  "LS_4H": {
+    "long": 0.619,
+    "short": 0.381,
+    "L_S": 1.6246719160104985
+  },
+  "CoinGlass_Heatmap": {
+    "available": false,
+    "note": "user screenshot recommended"
+  },
+  "data_integrity": {
+    "ticker": true,
+    "1H": true,
+    "4H": true,
+    "OI_1H": true,
+    "OI_4H": true,
+    "LS_1H": true,
+    "LS_4H": true,
+    "CoinGlass_Heatmap": false
+  }
+}
