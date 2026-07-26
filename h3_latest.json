@@ -1,40 +1,74 @@
 {
-  "generated_at": "2026-07-26T10:16:30.410507+00:00",
+  "generated_at": "2026-07-26T10:21:41.921460+00:00",
   "venue": "Bybit",
   "symbol": "BTCUSDT",
   "ticker": {
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    "lastPrice": 64473.5,
+    "markPrice": 64473.5,
+    "indexPrice": 64500.63,
+    "fundingRate": 1.045e-05,
+    "openInterest": 57763.699
   },
   "1H": {
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    "close": 64503.7,
+    "EMA5": 64446.62117907848,
+    "EMA10": 64422.88921187668,
+    "EMA20": 64369.940299801696,
+    "MACD": 51.92738636811555,
+    "MACD_signal": 38.03337839691862,
+    "MACD_hist": 13.894007971196928,
+    "ATR14": 118.10714285714286,
+    "volume": 775.748,
+    "RVOL20": 1.089404264605638,
+    "high20": 64568.9,
+    "low20": 64075.6
   },
   "4H": {
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    "close": 64342.3,
+    "EMA5": 64342.01011490566,
+    "EMA10": 64388.52613891723,
+    "EMA20": 64622.73261421556,
+    "MACD": -274.29892769025173,
+    "MACD_signal": -254.3747935066807,
+    "MACD_hist": -19.924134183571027,
+    "ATR14": 432.41428571428594,
+    "volume": 2992.859,
+    "RVOL20": 0.44829396264128846,
+    "high20": 66285.5,
+    "low20": 63700.7
   },
   "OI_1H": {
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    "previous": 57749.589,
+    "latest": 57714.021,
+    "change_pct": -0.06159004871878482
   },
   "OI_4H": {
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    "previous": 57552.743,
+    "latest": 57642.431,
+    "change_pct": 0.15583618664360976
   },
   "LS_1H": {
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    "long": 0.6135,
+    "short": 0.3865,
+    "L_S": 1.5873221216041398
   },
   "LS_4H": {
-    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    "long": 0.6139,
+    "short": 0.3861,
+    "L_S": 1.59000259000259
   },
   "CoinGlass_Heatmap": {
     "available": false,
     "note": "user screenshot recommended"
   },
   "data_integrity": {
-    "ticker": false,
-    "1H": false,
-    "4H": false,
-    "OI_1H": false,
-    "OI_4H": false,
-    "LS_1H": false,
-    "LS_4H": false,
+    "ticker": true,
+    "1H": true,
+    "4H": true,
+    "OI_1H": true,
+    "OI_4H": true,
+    "LS_1H": true,
+    "LS_4H": true,
     "CoinGlass_Heatmap": false
   }
 }
