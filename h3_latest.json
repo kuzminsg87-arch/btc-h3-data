@@ -1,74 +1,40 @@
 {
-  "generated_at": "2026-07-26T07:49:35.454879+00:00",
+  "generated_at": "2026-07-26T09:56:27.447488+00:00",
   "venue": "Bybit",
   "symbol": "BTCUSDT",
   "ticker": {
-    "lastPrice": 64354.0,
-    "markPrice": 64354.0,
-    "indexPrice": 64375.34,
-    "fundingRate": 9.28e-06,
-    "openInterest": 57619.601
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "1H": {
-    "close": 64409.0,
-    "EMA5": 64430.90897938986,
-    "EMA10": 64406.2010164717,
-    "EMA20": 64346.16068180154,
-    "MACD": 52.30532799348293,
-    "MACD_signal": 28.292284210781837,
-    "MACD_hist": 24.013043782701097,
-    "ATR14": 124.61428571428561,
-    "volume": 1175.154,
-    "RVOL20": 1.7665304536998176,
-    "high20": 64568.9,
-    "low20": 63996.0
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "4H": {
-    "close": 64516.0,
-    "EMA5": 64341.86517235848,
-    "EMA10": 64398.798614232175,
-    "EMA20": 64652.251836732416,
-    "MACD": -286.6873603119602,
-    "MACD_signal": -249.39374533705265,
-    "MACD_hist": -37.29361497490757,
-    "ATR14": 438.2000000000007,
-    "volume": 2305.673,
-    "RVOL20": 0.3299985513642491,
-    "high20": 66285.5,
-    "low20": 63700.7
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "OI_1H": {
-    "previous": 57630.287,
-    "latest": 57539.919,
-    "change_pct": -0.15680643755946466
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "OI_4H": {
-    "previous": 57875.553,
-    "latest": 57552.743,
-    "change_pct": -0.5577657288216242
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "LS_1H": {
-    "long": 0.6155,
-    "short": 0.3845,
-    "L_S": 1.600780234070221
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "LS_4H": {
-    "long": 0.6204,
-    "short": 0.3796,
-    "L_S": 1.6343519494204424
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
   },
   "CoinGlass_Heatmap": {
     "available": false,
     "note": "user screenshot recommended"
   },
   "data_integrity": {
-    "ticker": true,
-    "1H": true,
-    "4H": true,
-    "OI_1H": true,
-    "OI_4H": true,
-    "LS_1H": true,
-    "LS_4H": true,
+    "ticker": false,
+    "1H": false,
+    "4H": false,
+    "OI_1H": false,
+    "OI_4H": false,
+    "LS_1H": false,
+    "LS_4H": false,
     "CoinGlass_Heatmap": false
   }
 }
