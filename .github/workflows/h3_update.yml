@@ -1,0 +1,38 @@
+name: BTC H3 Cloud Updater
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: btc-h3-updater
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate fresh H3 JSON
+        run: python h3_bybit.py
+
+      - name: Commit fresh H3 data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add h3_latest.json
+          git diff --cached --quiet && exit 0
+          git commit -m "H3 cloud auto update"
+          git push
