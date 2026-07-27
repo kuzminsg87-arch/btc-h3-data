@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-27T18:14:53.248326+00:00",
+  "generated_at": "2026-07-27T18:24:51.231416+00:00",
   "venue": "Bybit",
   "symbol": "BTCUSDT",
   "ticker": {
-    "lastPrice": 64933.6,
-    "markPrice": 64937.91,
-    "indexPrice": 64969.81,
-    "fundingRate": 1.823e-05,
-    "openInterest": 54304.478
+    "lastPrice": 64869.9,
+    "markPrice": 64869.4,
+    "indexPrice": 64891.69,
+    "fundingRate": 2.041e-05,
+    "openInterest": 54377.361
   },
   "1H": {
     "close": 64994.3,
