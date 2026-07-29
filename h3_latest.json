@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-29T20:03:40.751235+00:00",
+  "generated_at": "2026-07-29T22:02:40.448134+00:00",
   "venue": "Bybit",
   "symbol": "BTCUSDT",
   "ticker": {
-    "lastPrice": 63483.5,
-    "markPrice": 63489.79,
-    "indexPrice": 63518.3,
-    "fundingRate": 9.794e-05,
-    "openInterest": 53679.606
+    "lastPrice": 63885.5,
+    "markPrice": 63889.31,
+    "indexPrice": 63922.66,
+    "fundingRate": 4.205e-05,
+    "openInterest": 53789.818
   },
   "1H": {
-    "close": 63556.1,
-    "EMA5": 64016.54896504956,
-    "EMA10": 64108.773616313265,
-    "EMA20": 64107.50178552433,
-    "MACD": 26.538150999469508,
-    "MACD_signal": 82.12026490937764,
-    "MACD_hist": -55.58211390990813,
-    "ATR14": 492.6285714285722,
-    "volume": 7562.427,
-    "RVOL20": 2.3901995719755216,
+    "close": 63830.0,
+    "EMA5": 63835.77731779981,
+    "EMA10": 63964.98233819317,
+    "EMA20": 64027.25248202794,
+    "MACD": -39.47545292702125,
+    "MACD_signal": 40.474948387505535,
+    "MACD_hist": -79.95040131452679,
+    "ATR14": 521.2285714285723,
+    "volume": 3478.205,
+    "RVOL20": 1.0005639706873324,
     "high20": 64733.0,
-    "low20": 63464.8
+    "low20": 63176.0
   },
   "4H": {
     "close": 63556.1,
@@ -38,9 +38,9 @@
     "low20": 62707.4
   },
   "OI_1H": {
-    "previous": 54520.149,
-    "latest": 53870.174,
-    "change_pct": -1.1921739245430163
+    "previous": 53612.998,
+    "latest": 53905.386,
+    "change_pct": 0.5453677483210351
   },
   "OI_4H": {
     "previous": 54262.652,
@@ -48,14 +48,12 @@
     "change_pct": -0.723293067209474
   },
   "LS_1H": {
-    "long": 0.5837,
-    "short": 0.4163,
-    "L_S": 1.4021138601969734
+    "long": 0.59,
+    "short": 0.41,
+    "L_S": 1.4390243902439024
   },
   "LS_4H": {
-    "long": 0.5837,
-    "short": 0.4163,
-    "L_S": 1.4021138601969734
+    "error": "[Errno 54] Connection reset by peer"
   },
   "CoinGlass_Heatmap": {
     "available": false,
@@ -68,7 +66,7 @@
     "OI_1H": true,
     "OI_4H": true,
     "LS_1H": true,
-    "LS_4H": true,
+    "LS_4H": false,
     "CoinGlass_Heatmap": false
   }
 }
