@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-01T04:07:15.805582+00:00",
+  "generated_at": "2026-08-01T07:42:22.313969+00:00",
   "venue": "Bybit",
   "symbol": "BTCUSDT",
   "ticker": {
-    "lastPrice": 62966.3,
-    "markPrice": 62968.87,
-    "indexPrice": 62998.0,
-    "fundingRate": 1.187e-05,
-    "openInterest": 58353.388
+    "lastPrice": 63010.0,
+    "markPrice": 63010.0,
+    "indexPrice": 63044.27,
+    "fundingRate": -1.3e-06,
+    "openInterest": 58373.472
   },
   "1H": {
-    "close": 62974.2,
-    "EMA5": 62967.64725003431,
-    "EMA10": 63003.846117265704,
-    "EMA20": 63218.85170359453,
-    "MACD": -305.71836502090446,
-    "MACD_signal": -340.51261766530126,
-    "MACD_hist": 34.794252644396806,
-    "ATR14": 261.11428571428615,
-    "volume": 682.219,
-    "RVOL20": 0.24171391580926369,
+    "close": 63046.0,
+    "EMA5": 63016.04362963981,
+    "EMA10": 63018.93600261961,
+    "EMA20": 63171.89416207071,
+    "MACD": -243.1787517718767,
+    "MACD_signal": -301.04277536803767,
+    "MACD_hist": 57.86402359616096,
+    "ATR14": 184.52142857142877,
+    "volume": 306.684,
+    "RVOL20": 0.12419474216988645,
     "high20": 63982.8,
     "low20": 62384.9
   },
@@ -38,24 +38,22 @@
     "low20": 62384.9
   },
   "OI_1H": {
-    "previous": 58391.749,
-    "latest": 58344.711,
-    "change_pct": -0.080555901827839
+    "error": "The read operation timed out"
   },
   "OI_4H": {
-    "previous": 58136.61,
-    "latest": 58344.711,
-    "change_pct": 0.357951727835526
+    "previous": 58344.711,
+    "latest": 58280.795,
+    "change_pct": -0.10954891866720162
   },
   "LS_1H": {
-    "long": 0.6271,
-    "short": 0.3729,
-    "L_S": 1.6816840976133012
+    "long": 0.6281,
+    "short": 0.3719,
+    "L_S": 1.6888948642108093
   },
   "LS_4H": {
-    "long": 0.6271,
-    "short": 0.3729,
-    "L_S": 1.6816840976133012
+    "long": 0.6281,
+    "short": 0.3719,
+    "L_S": 1.6888948642108093
   },
   "CoinGlass_Heatmap": {
     "available": false,
@@ -65,7 +63,7 @@
     "ticker": true,
     "1H": true,
     "4H": true,
-    "OI_1H": true,
+    "OI_1H": false,
     "OI_4H": true,
     "LS_1H": true,
     "LS_4H": true,
