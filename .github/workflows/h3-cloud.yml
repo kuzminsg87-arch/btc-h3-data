@@ -1,0 +1,39 @@
+name: BTC H3 Cloud Updater
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-h3:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run H3 collector
+        run: python h3_bybit.py > h3_latest.json
+
+      - name: Commit updated H3
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add h3_latest.json
+
+          if git diff --cached --quiet; then
+            echo "No H3 changes."
+          else
+            git commit -m "H3 cloud update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
