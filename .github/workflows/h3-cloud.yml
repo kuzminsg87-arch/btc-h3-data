@@ -25,6 +25,12 @@ jobs:
         run: |
           python h3_bybit.py > h3_latest.tmp.json
 
+      - name: Show H3 diagnostics
+        run: |
+          echo "===== H3 RAW DIAGNOSTICS ====="
+          cat h3_latest.tmp.json
+          echo "===== END H3 RAW DIAGNOSTICS ====="
+
       - name: Validate H3
         run: |
           python - <<'PY'
