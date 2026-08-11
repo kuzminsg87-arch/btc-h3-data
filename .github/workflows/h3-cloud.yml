@@ -21,8 +21,43 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run H3 collector
-        run: python h3_bybit.py > h3_latest.json
+      - name: Collect H3
+        run: |
+          python h3_bybit.py > h3_latest.tmp.json
+
+      - name: Validate H3
+        run: |
+          python - <<'PY'
+          import json
+
+          required = [
+              "ticker",
+              "1H",
+              "4H",
+              "OI_1H",
+              "OI_4H",
+              "LS_1H",
+              "LS_4H",
+          ]
+
+          with open("h3_latest.tmp.json", "r") as f:
+              data = json.load(f)
+
+          integrity = data.get("data_integrity", {})
+
+          bad = [x for x in required if integrity.get(x) is not True]
+
+          if bad:
+              print("H3 validation FAILED")
+              print("Invalid blocks:", bad)
+              raise SystemExit(1)
+
+          print("H3 validation OK")
+          PY
+
+      - name: Install validated H3
+        run: |
+          mv h3_latest.tmp.json h3_latest.json
 
       - name: Commit updated H3
         run: |
