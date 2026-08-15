@@ -1,40 +1,74 @@
 {
-  "generated_at": "2026-08-11T12:16:08.082362+00:00",
+  "generated_at": "2026-08-15T16:54:33.401830+00:00",
   "venue": "Bybit",
   "symbol": "BTCUSDT",
   "ticker": {
-    "error": "HTTP Error 403: Forbidden"
+    "lastPrice": 63064.2,
+    "markPrice": 63064.2,
+    "indexPrice": 63095.72,
+    "fundingRate": 5.289e-05,
+    "openInterest": 65037.896
   },
   "1H": {
-    "error": "HTTP Error 403: Forbidden"
+    "close": 63065.7,
+    "EMA5": 63030.70785127093,
+    "EMA10": 63021.15799477762,
+    "EMA20": 63016.35643724699,
+    "MACD": -8.975079256902973,
+    "MACD_signal": -22.840422062825134,
+    "MACD_hist": 13.865342805922161,
+    "ATR14": 103.1928571428559,
+    "volume": 388.727,
+    "RVOL20": 0.6933306650785556,
+    "high20": 63159.9,
+    "low20": 62761.8
   },
   "4H": {
-    "error": "HTTP Error 403: Forbidden"
+    "close": 63065.7,
+    "EMA5": 63032.032198479865,
+    "EMA10": 63085.76117174183,
+    "EMA20": 63288.82409974853,
+    "MACD": -285.889329624988,
+    "MACD_signal": -306.52439358439335,
+    "MACD_hist": 20.63506395940533,
+    "ATR14": 380.6571428571421,
+    "volume": 1777.069,
+    "RVOL20": 0.2260518984066809,
+    "high20": 64477.0,
+    "low20": 62505.1
   },
   "OI_1H": {
-    "error": "HTTP Error 403: Forbidden"
+    "previous": 65113.73,
+    "latest": 65101.295,
+    "change_pct": -0.019097354736097305
   },
   "OI_4H": {
-    "error": "HTTP Error 403: Forbidden"
+    "previous": 65304.986,
+    "latest": 65101.295,
+    "change_pct": -0.31190727152135
   },
   "LS_1H": {
-    "error": "HTTP Error 403: Forbidden"
+    "long": 0.6217,
+    "short": 0.3783,
+    "L_S": 1.6434047052603753
   },
   "LS_4H": {
-    "error": "HTTP Error 403: Forbidden"
+    "long": 0.6217,
+    "short": 0.3783,
+    "L_S": 1.6434047052603753
   },
   "CoinGlass_Heatmap": {
     "available": false,
     "note": "user screenshot recommended"
   },
   "data_integrity": {
-    "ticker": false,
-    "1H": false,
-    "4H": false,
-    "OI_1H": false,
-    "OI_4H": false,
-    "LS_1H": false,
-    "LS_4H": false,
+    "ticker": true,
+    "1H": true,
+    "4H": true,
+    "OI_1H": true,
+    "OI_4H": true,
+    "LS_1H": true,
+    "LS_4H": true,
     "CoinGlass_Heatmap": false
   }
 }
